@@ -40,17 +40,17 @@ export default class DrawerNavigator extends Component {
         drawerContent={props => <CustomSidebarMenu {...props} />}
       >
         <Drawer.Screen
-          name="Home"
+          name="Inicio"
           component={StackNavigator}
           options={{ unmountOnBlur: true }}
         />
         <Drawer.Screen
-          name="Profile"
+          name="Perfil"
           component={Profile}
           options={{ unmountOnBlur: true }}
         />
         <Drawer.Screen
-          name="Logout"
+          name="Cerrar sesión"
           component={Logout}
           options={{ unmountOnBlur: true }}
         />
