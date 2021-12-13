@@ -99,7 +99,7 @@ export default class Profile extends Component {
                     : styles.appTitleText
                 }
               >
-                Storytelling App
+                Aplicación para narrar historias
               </Text>
             </View>
           </View>
@@ -127,7 +127,7 @@ export default class Profile extends Component {
                     : styles.themeText
                 }
               >
-                Dark Theme
+                Tema oscuro
               </Text>
 
               <Switch
