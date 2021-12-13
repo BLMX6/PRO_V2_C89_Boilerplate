@@ -63,7 +63,7 @@ export default class Feed extends Component {
           this.props.setUpdateToFalse();
         },
         function (errorObject) {
-          console.log("The read failed: " + errorObject.code);
+          console.log("La lectura falló: " + errorObject.code);
         }
       );
   };
@@ -111,7 +111,7 @@ export default class Feed extends Component {
                     : styles.appTitleText
                 }
               >
-                Storytelling App
+                Aplicación para narrar historias
               </Text>
             </View>
           </View>
@@ -124,7 +124,7 @@ export default class Feed extends Component {
                     : styles.noStoriesText
                 }
               >
-                No Stories Available
+                No hay historias disponibles
               </Text>
             </View>
           ) : (
