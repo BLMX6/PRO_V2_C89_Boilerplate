@@ -72,7 +72,7 @@ export default class StoryCard extends Component {
         <TouchableOpacity
           style={styles.container}
           onPress={() =>
-            this.props.navigation.navigate("StoryScreen", {
+            this.props.navigation.navigate("PantalladeHistoria", {
               story: story
             })
           }
