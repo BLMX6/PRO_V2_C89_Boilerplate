@@ -38,6 +38,7 @@ export default class DrawerNavigator extends Component {
           itemStyle: { marginVertical: 5 }
         }}
         drawerContent={props => <CustomSidebarMenu {...props} />}
+        screenOptions={{ headerShown: false }}
       >
         <Drawer.Screen
           name="Inicio"
